@@ -1,0 +1,101 @@
+body{
+    background-color: #4cbfa6;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+.navigation{
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.nav-link{
+    margin-right: 10%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.banner-section{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.container{
+    width: 100%;
+}
+.row{
+   display: flex; 
+}
+.col-4{
+    width: 33.3%;
+}
+.card{
+    width: auto;
+    padding: 5%;
+}
+.card-header{
+    margin-left: 10%;
+}
+.description{
+    margin-left: 10%;
+}
+.btn{
+    margin-top: 10%;
+    margin-left: 10%;
+    width:200px;
+    height:50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    background-color: #FF99C8;
+    border: none;
+    border-radius: 15px;
+}
+
+.right-section{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.img-color{
+    position: absolute;
+    width: 25%;
+    height: 300px;
+    background-color: #FCF6BD;
+    margin-left: 75%;
+    top: 155px;
+    border-radius: 50px 0px 0px 50px;
+}
+.img{
+    position: absolute;
+    right: 70%;
+    top: 10%;
+}
+.achikos-img{
+    margin-left: 3%;
+    margin-right: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+.left-section{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.left-img-color{
+    position: absolute;
+    width: 25%;
+    height: 300px;
+    background-color: #FCF6BD;
+    border-radius: 0px 50px 50px 0px;
+}
+.left-img{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+}
+
