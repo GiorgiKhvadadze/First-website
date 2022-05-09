@@ -204,3 +204,32 @@ container-4{
 textarea{
     border-radius: 10px;
 }
+
+footer{
+    width: 100%;
+    background-color: #D0F4DE;
+    display: flex;
+}
+
+footer div{
+    margin-right: 10%;
+    margin-left: 3%;
+}
+
+footer li {
+    margin: 20%;
+}
+.list-1{
+    list-style: none;
+    display: block;
+}
+
+.list-2{
+    list-style: none;
+    display: block;
+}
+
+.list-3{
+    list-style: none;
+    display: block;
+}
